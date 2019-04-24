@@ -1,0 +1,152 @@
+/* 
+
+File Name: style.css 
+Author: Dattatreya P Sharma 
+Description: Styling of the following components
+
+Global
+App bar
+Channels list
+Tab bar
+Messages 
+
+*/
+
+
+/* Global Syling */
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto',, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+
+
+/* App bar styling */
+
+.app-bar strong{
+    text-transform: uppercase;
+}
+
+h1.app-bar {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+} 
+
+/* Chaneel list styling */
+
+ul {
+    list-style-type: none;
+    background-color: white;
+
+}
+
+li.app-bar{
+    border-bottom: 1px solid lightgray;
+    padding: 16px;
+    font-size:16px;
+    vertical-align:middle;
+    box-sizing:border-box;
+    height:48px;
+
+}
+
+#current-channel {
+    color: #3F51B5;
+    border-left: 3px solid blue;
+}
+
+
+/* Tab bar styling */
+
+#tab-bar {
+    background-color: white;
+    text-align:center;
+    border:0px;
+    font-size:13px; 
+    
+}
+
+#tab-bar button ,.message strong {
+    /* #2 #colourful #plusfive */
+    
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+    background-color:white;
+    border:0px;
+    font-size:13px;
+    width:33%;
+    height:72px;
+   
+}
+
+#tab-bar button{
+    width:33%;
+    height:72px;
+    padding:16px;
+}
+
+#tab-bar button div{
+    
+    padding:0px 0px 4px 0px;
+}
+
+#tab-bar .selected{
+    color:blue;
+    border-bottom: 5px solid blue;
+}
+
+/* Messages styling */
+
+.message {
+
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+    font-size:16px;
+    padding:16px;
+}
+
+.message .metadata {
+    font-size: medium;
+}
+
+.message .txt {
+    background-color: white;
+    padding: 16px;
+}
+
+.message .msg-btn {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message h3 a{
+    color:black;
+}
+
+#own {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 17.5%;
+
+}
+
+
+
+
